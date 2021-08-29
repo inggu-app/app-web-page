@@ -1,0 +1,15 @@
+@import "../particles.css";
+@import "../label.css";
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_wrapper {
+  position: static;
+  width: 90%;
+}

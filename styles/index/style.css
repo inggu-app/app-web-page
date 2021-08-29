@@ -1,6 +1,6 @@
-@import "particles.css";
-@import "label.css";
-@import "buttons.css";
+@import "../particles.css";
+@import "../label.css";
+@import "../buttons.css";
 * {
   margin: 0;
   padding: 0;
