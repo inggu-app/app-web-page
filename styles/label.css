@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+.text_wrapper {
+  position: absolute;
+  top: 20px;
+  background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+  -webkit-background-clip: text;
+  color: #d7d7d7;
+  animation: glow 2500ms linear infinite 2000ms;
+  z-index: 2;
+}
+
+.text {
+  color: #d7d7d7;
+  font-size: 40px;
+}
+
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
+}
