@@ -25,43 +25,14 @@ body {
 @keyframes buttonAnimation {
   50% {
     transform: scale(1.1);
-    background-color: #d7d7d7;
   }
   100% {
     transform: scale(1);
-    background-color: #fff;
   }
 }
 
 @media (max-width: 576px) {
   .container {
     flex-direction: column;
-  }
-  
-  .button {
-    width: 150px;
-    height: 150px;
-    margin-right: unset;
-    margin-bottom: 30px;
-    animation: buttonAnimation 1s;
-  }
-  
-  .button:last-child {
-    margin-bottom: unset;
-  }
-}
-
-@media (max-width: 400px) {
-  .mainText {
-    font-size: 22px;
-  }
-  
-  .button {
-    width: 120px;
-    height: 120px;
-  }
-  
-  .platformName {
-    font-size: 14px;
   }
 }

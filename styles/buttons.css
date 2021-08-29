@@ -46,3 +46,28 @@ img {
   bottom: 2px;
   font-size: 20px;
 }
+
+@media (max-width: 576px) {
+  .button {
+    width: 150px;
+    height: 150px;
+    margin-right: unset;
+    margin-bottom: 30px;
+    animation: buttonAnimation 1s;
+  }
+  
+  .button:last-child {
+    margin-bottom: unset;
+  }
+}
+
+@media (max-width: 400px) {
+  .button {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .platformName {
+    font-size: 14px;
+  }
+}

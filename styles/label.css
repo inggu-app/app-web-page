@@ -13,10 +13,17 @@
 .text {
   color: #d7d7d7;
   font-size: 40px;
+  text-align: center;
 }
 
 @keyframes glow {
   40% {
     text-shadow: 0 0 8px #fff;
+  }
+}
+
+@media (max-width: 576px) {
+  .text {
+    font-size: 30px;
   }
 }
